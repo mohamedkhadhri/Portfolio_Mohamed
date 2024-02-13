@@ -1,0 +1,109 @@
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("./images/Capture\ d’écran\ 2024-02-11\ 165817.png"); 
+    background-size: cover;
+  }
+  header {
+    font-style: italic;
+    background: linear-gradient(to top left, #3498db, #1abc9c);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    font-size: 54px;
+  }
+  li {
+    display: inline;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;  
+  }
+   a:hover {
+    color: #00d9ff;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .card1,
+      .card2 
+      {
+        position: relative;
+        border: 1px solid #ddd;
+        background: linear-gradient(to top left, #3498db, #1abc9c);
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        width: 450px;
+        height: 400px;
+        box-shadow: 20px 20px 30px rgba(12, 19, 107, 0.311);
+        overflow: hidden;
+        opacity: 1;
+      }
+      img {
+        width: 300px;
+        height: 300px;
+        margin-top: 100px;
+        right: 600px; 
+        transition: transform 0.5s, opacity 0.5s;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+        transform-origin: center center; 
+    } 
+    img:hover {
+        opacity: 0.3; 
+        transform: translateY(-20px) rotateX(20deg);
+    }
+p {
+    color: white;
+    font-size: 14px; 
+    margin-top: 35px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+h2 {
+    color: white;
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+.rating-container {
+  margin-top: 40px;
+  right: 700px; 
+  font-size: 24px;
+}
+.rating-star {
+  color: #ccc;
+  cursor: pointer;
+  animation: starAnimation 1s infinite;
+}
+@keyframes starAnimation {
+  0%, 100% {
+      color: #ccc; 
+  }
+  50% {
+      color: #ffcc00; 
+  }
+}
+.rating-container .rating-star:hover,
+.rating-container .rating-star.active {
+  color: #ffcc00;
+}
+    
+  
+  
+  

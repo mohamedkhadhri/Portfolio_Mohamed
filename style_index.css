@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("./images/Capture\ d’écran\ 2024-02-11\ 165817.png"); 
+    background-size: cover;
+  }
+  header {
+    font-style: italic;
+    background: linear-gradient(to top left, #3498db, #1abc9c);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    font-size: 54px;
+  }
+  li {
+    display: inline;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;  
+  }
+   a:hover {
+    color: #00d9ff;
+  }
+  
+h2 {
+  font-size: 54px;
+    color: white;
+    font-style: italic;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+h2:hover{
+
+  color: #ffcc00;
+}
