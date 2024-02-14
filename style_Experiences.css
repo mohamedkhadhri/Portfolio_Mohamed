@@ -92,7 +92,7 @@ h2 {
   animation: starAnimation 1s infinite;
 }
 @keyframes starAnimation {
-  0%, 100% {
+  0%, 99% {
       color: #ccc; 
   }
   50% {
